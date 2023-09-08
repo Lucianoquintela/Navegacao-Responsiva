@@ -1,0 +1,42 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:#6A5ACD;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+}
+
+header .logos {
+    height:90px;
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+
+ul{
+   list-style:none;
+   display:flex;
+   justify-content:center;
+   padding-left:0; /*Tirar o espaço antes de cada li */
+  gap:20px; 
+}
+
+li{   
+   width:70px;
+   border:solid 2px;
+   cursor:pointer;   
+   transition: 0.2s ease-in-out;
+}
+
+li:hover{
+    border:solid orange;
+    color:orange;
+}
+
+a{
+ text-align:center;
+}
+
+
+ 
